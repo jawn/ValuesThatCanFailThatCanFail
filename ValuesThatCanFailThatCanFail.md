@@ -207,9 +207,9 @@ This function checks if a Price value is positive or transforms it into a Fail:
     checkPositive (Value 42) ⏎
     Value 42.0
     checkPositive (Value 0) ⏎
-    Fail "not a checkPositive price"
+    Fail "not a positive price"
     checkPositive (Value (-42)) ⏎
-    Fail "not a checkPositive price"
+    Fail "not a positive price"
     checkPositive (Fail "oops") ⏎
     Fail "oops"
     
