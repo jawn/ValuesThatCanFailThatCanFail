@@ -135,7 +135,7 @@ Running the program:
 
 *Total Price is printed on ten positions, with two digits after decimal point.*
 
-What we want is to convert the value in the FPrice context from Double to String, but we then we need a more general type:
+What we want is to convert the value in the FPrice context from Double to String, but then we need a more general type:
 
 ```haskell
     data FValue a = Value a | Fail String deriving Show
